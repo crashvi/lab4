@@ -23,9 +23,9 @@ ft = u0*cos(w0*t+fi0)							#несущий сигнал
 
 uam = (u0+kam*bt)*cos(w0*t+fi0)					#итоговый сигнал
 
-rcParams['figure.figsize'] = 17, 3
-rcParams.update({'figure.autolayout': True})
-rcParams['lines.linewidth'] = 1
+//rcParams['figure.figsize'] = 17, 3
+//rcParams.update({'figure.autolayout': True})
+//rcParams['lines.linewidth'] = 1
 subplot(1, 3, 1)
 plot(t, bt, '-', label=r'$usin(wt+fi)$')
 legend(loc='upper right')
