@@ -39,4 +39,4 @@ plot(t,uam, '-', label=r'$uam=(u0+kamb(t))cos(w0t+fi0)$')
 legend(loc='upper right')
 title('Итоговый сигнал'+' kam='+str(kam)[0:4])
 savefig('AM modulation.png')
-show 
+show ()
