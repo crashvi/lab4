@@ -1,4 +1,4 @@
-#AM
+#AM вношу изменеения в первую строчку кода
 from numpy import *
 from matplotlib.pyplot import *
 from pylab import *
